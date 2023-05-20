@@ -12,8 +12,11 @@
   "dependencies": {
     "@astrojs/mdx": "^0.18.4",
     "@astrojs/prefetch": "^0.2.1",
+    "@astrojs/react": "^2.2.0",
     "@astrojs/rss": "^2.3.2",
     "@astrojs/sitemap": "^1.2.2",
-    "astro": "^2.2.3"
+    "astro": "^2.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
