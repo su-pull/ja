@@ -1,13 +1,27 @@
 ---
-const today = new Date();
+const today = new Date()
 ---
 
-<footer>
-	&copy; {today.getFullYear()} YOUR NAME HERE. All rights reserved.
+<footer class="footer_main">
+  <span class="footer_text"
+    >&copy; {today.getFullYear()} Sou Watanabe. All rights reserved.</span
+  >
 </footer>
 <style>
-	footer {
-		padding: 25px;
-		text-align: center;
-	}
+  .footer_main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 120px;
+  }
+  .footer_text {
+    position: relative;
+    text-align: left;
+    color: var(--color-light);
+  }
 </style>
