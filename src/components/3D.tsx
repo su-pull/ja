@@ -21,7 +21,7 @@ const ModelViewer = () => {
     mount?.current?.appendChild(renderer.domElement)
 
     const loader = new GLTFLoader()
-    loader.load('/alum.gltf', gltf => {
+    loader.load('/table.gltf', gltf => {
       scene.add(gltf.scene)
     })
 
